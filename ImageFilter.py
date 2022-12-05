@@ -58,7 +58,7 @@ def uploadImage(key):
         # Pre-processing image: resize image
         return preProcessImg(img)
     
-    return cv2.cvtColor(preProcessImg(cv2.imread('sample.jpg')),cv2.COLOR_BGR2RGB)
+    return cv2.cvtColor(preProcessImg(cv2.imread('beach.png')),cv2.COLOR_BGR2RGB)
 
 # About Me UI 
 
