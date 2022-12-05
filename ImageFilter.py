@@ -64,7 +64,7 @@ def uploadImage(key):
 
 def aboutMe():
     
-    st.markdown(requests.get(os.getenv('ABOUT_ME','https://github.com/Yeole2001/Yeole2001/blob/master/README.md')).text, unsafe_allow_html=True)
+    st.markdown(requests.get(os.getenv('ABOUT_ME','https://raw.githubusercontent.com/Yeole2001/Yeole2001/master/README.md')).text, unsafe_allow_html=True)
 
 # Average Filter 
 
